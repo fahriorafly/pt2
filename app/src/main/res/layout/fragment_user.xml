@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment.pengguna.UserFragment">
+
+    <TextView
+        android:id="@+id/namaLengkapAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M. AFIF ZAIN" />
+
+    <TextView
+        android:id="@+id/nomorAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="082382382382" />
+
+    <TextView
+        android:id="@+id/alamatAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Jl. mengger hilir haha" />
+
+    <Button
+        android:id="@+id/btnHapusAlamatUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        android:backgroundTint="#7BCDDE"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/btnTambahAlamatUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7BCDDE"
+        android:text="Tambah"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnLogoutUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7BCDDE"
+        android:text="Logout"
+        android:visibility="visible" />
+</LinearLayout>
